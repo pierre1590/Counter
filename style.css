@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin:30px;
+    font-size: 78px;
+    color: #f02;
+}
+
+#count{
+    margin: 10% 48% auto;
+    border: 2px dotted #3ff;
+    width: 4%;
+    height:95px;
+    padding-left: 5px;
+
+}
+
+.counter{
+    margin:0;
+    width:85px;
+    height: 35px;
+    font-size: 35px;
+    padding-left: 20%;
+    margin-bottom: 5px;;
+    
+}
+
+.minus{
+    width:40px;
+    height: 50px;
+    outline: none;
+    font-size: 40px;
+    border: 4px solid #f01;
+    cursor: pointer;
+}
+
+.plus{
+    outline:none;
+    width: 40px;
+    height: 50px;
+    font-size: 40px;
+    border: 4px solid #f01;
+    cursor: pointer;
+}
