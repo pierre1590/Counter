@@ -11,56 +11,58 @@ h1{
 }
 
 #count{
-    margin: 10% 48% auto;
+    margin: 10% 46% auto;
     border: 2px dotted #3ff;
-    width: 120px;
+    width:105px;
     height:95px;
-    padding-left: 15px;
+    padding-left: 12px;
 
 }
 
 .counter{
     margin:0;
-    width:85px;
+    width:78px;
     height: 35px;
     font-size: 35px;
-    padding-left: 20%;
-    margin-bottom: 5px;;
+    padding-left: 22px;
+    margin-bottom: 5px;
+   
     
 }
 
 .minus{
-    width:40px;
-    height: 50px;
+    text-align: center;
+    padding-left: 12px;
     outline: none;
-    font-size: 40px;
+    font-size: 30px;
     border: 4px solid #f01;
     cursor: pointer;
 }
 
 .plus{
+    padding-left: 12px;
     outline:none;
-    width: 40px;
-    height: 50px;
-    font-size: 40px;
+    font-size: 30px;
     border: 4px solid #f01;
     cursor: pointer;
 }
 
-/* MEDIA QUERY */ 
+/* MEDIA QUERY */
 
-@media only screen and(min-width:220px){
+@media only screen and (min-width:250px){
     #count{
-        width: 40%;
-        height: 15%;
-    
+        width:105px;
+        height:100px;
     }
 }
 
-@media only screen and (min-width:920px){
+@media only screen and (min-width:899px){
     #count{
-        width: 20%;
-        height: 15%;
-}
-
+        margin: 10% 46% auto;
+        border: 2px dotted #3ff;
+        width:105px;
+        height:95px;
+        padding-left: 12px;
+    
+    }
 }
