@@ -6,63 +6,68 @@
 h1{
     text-align: center;
     margin:30px;
-    font-size: 78px;
+    font-size: 55px;
     color: #f02;
 }
 
 #count{
-    margin: 10% 46% auto;
+    margin: 10% 25% auto;
     border: 2px dotted #3ff;
-    width:105px;
-    height:95px;
-    padding-left: 12px;
+    width:180px;
+    height:200px;
+    padding-left: 10px;
 
 }
-
-.counter{
-    margin:0;
-    width:78px;
-    height: 35px;
-    font-size: 35px;
-    padding-left: 22px;
-    margin-bottom: 5px;
-   
-    
+.counter-display{
+    padding-left: 5px ;
 }
 
 .minus{
-    text-align: center;
-    padding-left: 12px;
     outline: none;
-    font-size: 30px;
-    border: 4px solid #f01;
-    cursor: pointer;
+    margin:25% 5%  2%;
+    width: 25px;
+    height: 30px;
+    border-radius: 6px;
+    box-shadow:  2px 2px 2px #f01;
+    margin-left: 15%;
+    cursor:pointer;
 }
-
+   
 .plus{
-    padding-left: 12px;
-    outline:none;
-    font-size: 30px;
-    border: 4px solid #f01;
-    cursor: pointer;
+    outline: none;
+    margin-left:30%;
+    width: 25px;
+    height: 30px;
+    border-radius: 6px;
+    box-shadow:  2px 2px 2px #f01;
+    cursor:pointer;
+    
 }
+    
+
+
 
 /* MEDIA QUERY */
 
 @media only screen and (min-width:250px){
     #count{
-        width:105px;
-        height:100px;
+        margin: 10% 30% auto;
+        width:180px;
+        height:250px;
     }
-}
+
+}   
+
+    
+
 
 @media only screen and (min-width:899px){
     #count{
-        margin: 10% 46% auto;
+        margin: 10% 48% auto;
         border: 2px dotted #3ff;
-        width:105px;
-        height:95px;
-        padding-left: 12px;
+        width:185px;
+        height:220px;
+        
     
     }
 }
