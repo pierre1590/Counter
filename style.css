@@ -11,15 +11,16 @@ h1{
 }
 
 #count{
-    margin: 10% 25% auto;
+    margin: 10% 20% auto;
     border: 2px dotted #3ff;
-    width:180px;
-    height:200px;
+    width:200px;
+    height:280px;
     padding-left: 10px;
 
 }
 .counter-display{
-    padding-left: 5px ;
+    padding-left: 2px ;
+    
 }
 
 .minus{
@@ -43,6 +44,19 @@ h1{
     cursor:pointer;
     
 }
+
+.reset{
+    font-size: 25px;
+    margin:15% 0 auto;
+    outline: none;
+    padding-left: 0 auto;
+    width: 85px;
+    height: 35px;
+    border-radius: 6px;
+    box-shadow:  2px 2px 2px #f01;
+    margin-left: 18%;
+    cursor:pointer;
+}
     
 
 
@@ -51,9 +65,9 @@ h1{
 
 @media only screen and (min-width:250px){
     #count{
-        margin: 10% 30% auto;
+        margin: 20% 30% auto;
         width:180px;
-        height:250px;
+        height:280px;
     }
 
 }   
@@ -66,7 +80,7 @@ h1{
         margin: 10% 48% auto;
         border: 2px dotted #3ff;
         width:185px;
-        height:220px;
+        height:280px;
         
     
     }
