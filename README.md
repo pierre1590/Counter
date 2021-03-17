@@ -1,6 +1,6 @@
 CONTATORE
 
-<img src="https://i.ibb.co/qNLkgjx/contatore.png" alt="contatore" height="250px" width="400px">
+<img src="https://i.ibb.co/qNLkgjx/contatore.png" alt="contatore" height="250px" width="300px">
 
 E' stato creato un semplice contatore inizializzato a 0.
 
