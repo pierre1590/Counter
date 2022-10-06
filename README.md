@@ -4,6 +4,6 @@ CONTATORE
 
 E' stato creato un semplice contatore inizializzato a 0.
 
-App: https://www.piero-sabino.it/counter/
+App: http://www.pierosabino.it/counter/
 
 Autore: Piero Sabino

@@ -7,18 +7,19 @@ let count = 0;
 updateDisplay();
 
 counterPlusElem.addEventListener("click",()=>{
+     
     count++;
     updateDisplay();
 })
 
 counterMinusElem.addEventListener("click",()=>{
     count--;
-    updateDisplay();
-    
+     updateDisplay();
 });
 
 function updateDisplay(){
     counterDisplayElem.innerHTML = count;
+    
 };
                 
 resetBtn.addEventListener("click",()=>{
@@ -29,3 +30,8 @@ resetBtn.addEventListener("click",()=>{
 
 
 
+if(updateDisplay(count) < 0){
+    counterDisplayElem.style.color = 'red';
+}else {
+    counterDisplayElem.style.color = 'black';
+    }
